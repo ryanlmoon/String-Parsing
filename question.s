@@ -31,7 +31,7 @@ loop	b loop
 		AREA main, DATA, READWRITE
 STRING1 DCB "and the man said they must go"	;String1
 EoS 	DCB 0x00                            	;end of string1
-the		DCD 0x74686520                  ;'the ' in ascii hexadecimal
+the	DCD 0x74686520                  	;'the ' in ascii hexadecimal
 theNull	DCD 0x74686500                      	;'the\0' in ascii hexadecimal
 spce	EQU 0x20                            	;space character in ascii hexadeciaml
 STRING2 space 0x7F                          	;just allocating 127 bytes
